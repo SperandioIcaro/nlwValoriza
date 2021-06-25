@@ -16,6 +16,7 @@ class CreateTagService {
       name
     });
     await tagsRepositories.save(tag);
+    return tag;
   }
 
 }
