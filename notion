@@ -1,0 +1,16 @@
+/**
+ * GET          => Buscar uma informação
+ * POST        => Inserir (criar) uma informação
+ * PUT          => Alterar uma informação
+ * DELETE  => Remover um dado
+ * PATCH     => Alterar uma informação esppecifica
+ */
+/**
+ * Tipos de parametros:
+ * Routes Params   => serverbase/produtos/415186115198189 - busca utilizando o id direto na rota(url)
+ * query Params     =>serverbase/produtos?name=teclado&description= tecladobom& - busca por filtro
+ * body Params      =>{
+ *  "name": "teclado"
+ * "description": "teclado bom"
+ * } - entendi nada
+ */
