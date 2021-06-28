@@ -1,0 +1,48 @@
+body{
+    background-color: #2f214a;
+  
+}
+.login{
+ 
+  width: 400px;
+  margin: auto;
+  padding: 40px;
+}
+
+.card{
+ 
+  width: 300px;
+  box-shadow: 0px 0px 40px  #593c98;
+  background-color: #e5e4e8;
+  padding: 30px;
+  border-radius: 10px;
+}
+.card-top{
+  text-align: center;
+}
+.grouplogin{
+  margin-bottom: 10px;
+}
+.grouplogin > label{
+ 
+  width:  90%;
+  color:black;
+  display: block;
+}
+.grouplogin > input{
+    border-radius: 5px;
+}
+.grouplogin > button{
+ color: whitesmoke;
+  background-color: #452681;
+  width: 80%;
+  border-radius: 30px;
+  padding: 10px;
+ }
+ .bts button:hover{
+  background-color: #5d33b1;
+ 
+ }
+.imglogin{
+  box-shadow: 1px 1px 2px #ccc;
+}
