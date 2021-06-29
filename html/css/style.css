@@ -1,21 +1,32 @@
-body{
+body{  
     background-color: #2f214a;
-  
-}
-.login{
+    background-image: url("../images/background-nlwvaloriza.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   }
+   
+table{
+  margin-left: 10rem;
+  ruby-align: right;
+  text-align: right;
  
+}
+.login{ 
   width: 400px;
   margin: auto;
-  padding: 40px;
+  padding: 20px;
 }
 
 .card{
- 
+  margin-left: 50rem;
   width: 300px;
   box-shadow: 0px 0px 40px  #593c98;
   background-color: #e5e4e8;
   padding: 30px;
   border-radius: 10px;
+  margin-top: inherit;
 }
 .card-top{
   text-align: center;
@@ -24,8 +35,8 @@ body{
   margin-bottom: 10px;
 }
 .grouplogin > label{
- 
-  width:  90%;
+  font-family: sans-serif;
+  width:  100%;
   color:black;
   display: block;
 }
@@ -34,13 +45,16 @@ body{
 }
 .grouplogin > button{
  color: whitesmoke;
-  background-color: #452681;
-  width: 80%;
+ font-size: 20px;
+ font-family: Oxygen;
+  background-image: linear-gradient( to right, #593c98, #301966 );
+  width: 90%;
   border-radius: 30px;
   padding: 10px;
+  text-align: center;
  }
  .bts button:hover{
-  background-color: #5d33b1;
+  background-image: linear-gradient( to right, #825ad8, #5229b3 );
  
  }
 .imglogin{
