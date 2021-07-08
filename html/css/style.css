@@ -14,9 +14,9 @@ table{
  
 }
 .login{ 
-  width: 400px;
+  width: 300px;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .card{
@@ -24,7 +24,7 @@ table{
   width: 300px;
   box-shadow: 0px 0px 40px  #593c98;
   background-color: #e5e4e8;
-  padding: 30px;
+  padding: 40px;
   border-radius: 10px;
   margin-top: inherit;
 }
@@ -32,7 +32,7 @@ table{
   text-align: center;
 }
 .grouplogin{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .grouplogin > label{
   font-family: sans-serif;
@@ -57,6 +57,13 @@ table{
   background-image: linear-gradient( to right, #825ad8, #5229b3 );
  
  }
-.imglogin{
-  box-shadow: 1px 1px 2px #ccc;
-}
+ .rodape{
+   background-color: rgb(174, 175, 173);
+   color: rgb(115, 79, 163);
+   font-family: fantasy;
+   text-shadow: #2d2a35;
+   position: absolute;
+   bottom: 5px;
+   width: 99%;
+   text-align: center;
+ }
