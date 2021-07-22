@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 
+
    }
    
 table{
@@ -26,7 +27,7 @@ table{
   background-color: #e5e4e8;
   padding: 40px;
   border-radius: 10px;
-  margin-top: inherit;
+  margin-top: auto;
 }
 .card-top{
   text-align: center;
@@ -63,7 +64,8 @@ table{
    font-family: fantasy;
    text-shadow: #2d2a35;
    position: absolute;
-   bottom: 5px;
+   bottom: 1%;
    width: 99%;
    text-align: center;
+   border-radius: 30px;
  }
